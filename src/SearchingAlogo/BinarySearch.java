@@ -27,7 +27,7 @@ public class BinarySearch {
         Arrays.sort(arr);
         System.out.println("Sorting Array for Binary Search: " + Arrays.toString(arr));
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter element to be searched: ");
+        System.out.println("Enter Element to be searched: ");
         int target = sc.nextInt();
         int res = binarySearch(arr, target);
         if (res != -1) System.out.println("Element found at position: " + res);

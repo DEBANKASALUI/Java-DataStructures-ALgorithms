@@ -72,4 +72,61 @@ public class LinkedList {
             temp = temp.next;
         }
     }
+
+    //    delete from beginning
+    public void deleteFromBeginning() {
+        if (head == null) {
+            System.out.println("List is Empty! No nodes to delete");
+            return;
+        }
+        head = head.next;
+    }
+
+    //    delete from end
+    public void deleteFromEnd() {
+        if (head == null) {
+            System.out.println("List is Empty! No nodes to delete");
+        }
+        if (head.next == null) {
+            head = null;
+            return;
+        }
+        Node temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
+    //    delete from specific position
+    public void deleteFromPosition(int position) {
+        if (head == null) {
+            System.out.println("List is Empty! No nodes to delete");
+        }
+        if (position == 0) {
+            head = head.next;
+            return;
+        }
+        Node temp = head;
+        for (int i = 0; i < position - 1 && temp != null; i++) {
+            temp = temp.next;
+        }
+        if (temp == null || temp.next == null) {
+            System.out.println("Position out of Bounds");
+            return;
+        }
+        temp.next = temp.next.next;
+    }
+
+    //    Search data
+    public boolean searchData(int data) {
+        Node temp=head;
+        while(temp!=null){
+            if(temp.data==data){
+                return true;
+            }
+            temp=temp.next;
+        }
+        return false;
+    }
 }

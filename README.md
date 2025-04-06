@@ -17,4 +17,6 @@ Binary Search Tree Operations:
   
   Insert Opeartions in BST:
     To Insert New Node
-  - Case 1: 
+  - Case 1: If Tree is empty, make new Node as Root Node.
+  - Case 2: If key is smaller than Root, insert in Left subtree.
+  - Case 3: If key is larger than Root, insert in Right subtree.

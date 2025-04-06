@@ -12,3 +12,8 @@ Binary Search Tree Properties:
   - Left Child contains smaller value than Parent Node
   - Right Child contains larger value than Parent Node
   - No Duplicate values are allowed
+
+Binary Search Tree Operations:
+  Insert Opeartions in BST:
+    To Insert New Node
+  - Case 1: 

@@ -14,6 +14,7 @@ Binary Search Tree Properties:
   - No Duplicate values are allowed
 
 Binary Search Tree Operations:
+  
   Insert Opeartions in BST:
     To Insert New Node
   - Case 1: 

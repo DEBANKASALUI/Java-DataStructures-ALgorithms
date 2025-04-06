@@ -18,11 +18,9 @@ public class BinaryTree {
     public void preOrder(Node node) {
         if (node == null)
             return;
-
         System.out.print(node.data + "\t");
         preOrder(node.left);
         preOrder(node.right);
-
     }
 
 //            In-Order(Depth-First-Search)Traversal:Left->Root->Right
@@ -32,7 +30,6 @@ public class BinaryTree {
         inOrder(node.left);
         System.out.print(node.data + "\t");
         inOrder(node.right);
-
     }
 
 //        Post-Order(Depth-First-Search)Traversal:Left->Right->Root

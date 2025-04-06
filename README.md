@@ -20,3 +20,13 @@ Binary Search Tree Operations:
   - Case 1: If Tree is empty, make new Node as Root Node.
   - Case 2: If key is smaller than Root, insert in Left subtree.
   - Case 3: If key is larger than Root, insert in Right subtree.
+
+  Search Opeartions in BST:
+  - Case 1: If tree is empty or root matches the key, return the root.
+  - Case 2: If key is smaller than root, search in Left Subtree.
+  - Case 3: If key is greater than root, search in Right Subtree.
+  
+  Deletion in BST:
+  - Case 1: If Node has no children, remove the Node.
+  - Case 2: If Node has 1 child, remove the node and connect the parent to its child.
+  - Case 3: If Node has 2 children, find inorder successor(smallest node in right subtree), replace node's value with it and then delete the successor.

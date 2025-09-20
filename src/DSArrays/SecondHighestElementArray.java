@@ -2,7 +2,7 @@ package DSArrays;
 
 public class SecondHighestElementArray {
     public static void main(String[] args) {
-        int arr[] = {10, 20, 30, 40, 50, 60};
+        int arr[] = {10, 20, 55, 30, 40, 50, 60};
         findSecondHighestElementArray(arr);
     }
 

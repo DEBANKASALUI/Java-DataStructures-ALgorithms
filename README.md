@@ -1,5 +1,6 @@
 Learning Reference:
   - https://github.com/LearnCodeWithDurgesh/YouTube-DSA-Series
+  - https://www.youtube.com/playlist?list=PLxCzCOWd7aiEwaANNt3OqJPVIxwp2ebiT
 
 Binary Tree: Hierarchical DataStructure where each Node has Atmost 2 Children.
   - Full Binary Tree: Every Node has either 0 or 2 children.

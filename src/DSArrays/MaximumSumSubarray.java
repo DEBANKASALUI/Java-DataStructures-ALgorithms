@@ -5,7 +5,7 @@ public class MaximumSumSubarray {
     public static void main(String[] args) {
         int arr[] = {3, 8, 2, 5, 7, 6, 12};
         int res = maximumSubArray(arr, 4);
-        System.out.println("Max sum of Subarray: "+res);
+        System.out.println("Max sum of Subarray of given Window size: "+res);
     }
 
     public static int maximumSubArray(int arr[], int windowSize) {
